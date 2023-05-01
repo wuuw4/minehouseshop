@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{3596B90F-B303-41A9-87E5-AC1AD0223D9E}"
+	ProjectSection(SolutionItems) = preProject
+		fone.jpg = fone.jpg
+		forms.html = forms.html
+		formsprod.html = formsprod.html
+		korzina.html = korzina.html
+		info.html = info.html
+		main.css = main.css
+		noimage.png = noimage.png
+		pickaxe.png = pickaxe.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2454B788-7608-44E4-AA37-57ED47CC0CE3}
+	EndGlobalSection
+EndGlobal

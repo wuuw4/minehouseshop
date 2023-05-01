@@ -1,0 +1,140 @@
+﻿.shapka {
+	height: 100px;
+	background-color: #7f9b00;
+	padding: 0px;
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+.mainstyle {
+	background-color: #fffffg;
+}
+#main {
+	padding-left: 10px;
+	color: white;
+	font-family: Bradley Hand, cursive;
+}
+.prod-list {
+	width: 800px;
+	grid-gap: 40px;
+	-webkit-box-pack: justify;
+	justify-content: space-between;
+	grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+	width:100%;
+	display: flex;
+	justify-content: center;
+}
+.prod {
+}
+.prod-title {
+	font-weight: bold;
+	font-size: 16pt;
+	color: black;
+}
+a {
+  text-decoration:none;
+}
+html {
+	background-image: url(fone.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#imagelogo {
+	width:40px;
+	height:40px;
+	padding-top: 23px;
+	padding-bottom: 20px;
+	padding-left: 200px;
+}
+.logoititle {
+	-webkit-box-pack: justify;
+	display: flex;
+}
+#prodimage {
+	border-radius: 10px;
+	weight: 335px;
+	height: 335px;
+}
+#prodimage:hover{
+	weight: 335px;
+	height: 335px;
+	border: 3px solid transparent;
+	-moz-border-image: -moz-linear-gradient(top left, #DC2903 , #F4F955, #0625F9);
+	-webkit-border-image: -webkit-linear-gradient(top left, #DC2903 , #F4F955, #0625F9);
+	border-image: linear-gradient(to bottom right, #DC2903 , #F4F955, #0625F9);
+	border-image-slice: 1;
+}
+
+#prodimagebuy{
+	weight: 502px;
+	height: 502px;
+	margin-left: 25px;
+	margin-top: 25px;
+	border-radius: 10px;
+}
+.buyprod{
+	display: flex;
+	justify-content: left;
+}
+.ruslanlox{
+	margin-left: 25px;
+	margin-top: 25px;
+}
+.prod-titlebuy{
+	font-family:"Times, Times New Roman, serif";
+	font-size: 60px;
+	font-weight: bold;
+}
+.prod-descbuy{
+	font-size: 22px;
+}
+.buttbuy{
+	display:flex;
+	margin: 50px;
+	height: 250px;
+	weight: 100px;
+}
+.s1{
+	color:black;
+}
+.s1:hover{
+	text-decoration: underline; /* Добавляем подчеркивание при наведении курсора на ссылку */
+    color: red;
+}
+.s2{
+	color:white;
+}
+.s2:hover{
+	color:white;
+	text-decoration:none;
+}
+.buttpanel{
+
+	float: right;
+	margin-top: 25px;
+	margin-right: 50px;
+
+}
+.buttshapka{
+
+	margin:3px;
+	border-radius:20px;
+}
+#ofirmezag{
+	font-family:"Times, Times New Roman, serif";
+	font-size: 40px;
+	font-weight: bold;
+	justify-content: center;
+	display:flex;
+
+}
+#ofirmeobsh{
+	font-family:"Times, Times New Roman, serif";
+	font-size: 20px;
+}
